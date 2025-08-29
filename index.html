@@ -31,19 +31,19 @@
           <div
             class="bg-[rgb(65,255,107,.1)] flex items-center gap-2 py-3 px-6 md:px-12 rounded-full"
           >
-            <span class="font-bold">0</span>
+            <span id="heart_counter" class="font-bold">0</span>
             <img class="w-8" src="assets/heart.png" alt="" />
           </div>
           <div
             class="bg-[rgb(65,255,107,.1)] flex items-center gap-2 py-3 px-6 md:px-12 rounded-full"
           >
-            <span class="font-bold">100</span>
+            <span id="coin_counter" class="font-bold">100</span>
             <img class="w-8" src="assets/coin.png" alt="" />
           </div>
           <div
             class="bg-[#00A63E] text-white py-4 px-6 md:px-12 rounded-full flex gap-2"
           >
-            <span>0</span>
+            <span id="copy_counter">0</span>
             <span>Copy</span>
           </div>
         </div>
@@ -68,10 +68,10 @@
         class="max-w-[1800px] mx-auto px-5 flex gap-5 hind_madurai_font py-12"
       >
         <div class="w-[75%] grid grid-cols-3 gap-5">
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/emergency.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">National Emergency Number</h3>
@@ -85,13 +85,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -102,10 +102,10 @@
               </button>
             </div>
           </div>
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/police.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">Police Helpline Number</h3>
@@ -119,13 +119,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -136,10 +136,10 @@
               </button>
             </div>
           </div>
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/fire-service.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">Fire Service Number</h3>
@@ -153,13 +153,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -170,10 +170,10 @@
               </button>
             </div>
           </div>
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/ambulance.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">Ambulance Service</h3>
@@ -187,13 +187,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -204,10 +204,10 @@
               </button>
             </div>
           </div>
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/emergency.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">Women & Child Helpline</h3>
@@ -221,13 +221,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -238,10 +238,10 @@
               </button>
             </div>
           </div>
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/emergency.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">Anti-Corruption Helpline</h3>
@@ -255,13 +255,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -272,10 +272,10 @@
               </button>
             </div>
           </div>
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/emergency.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">Brac Helpline</h3>
@@ -289,13 +289,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -306,10 +306,10 @@
               </button>
             </div>
           </div>
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/emergency.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">Bangladesh Railway Helpline</h3>
@@ -323,13 +323,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -340,10 +340,10 @@
               </button>
             </div>
           </div>
-          <div class="p-8 bg-white rounded-xl">
+          <div class="card p-8 bg-white rounded-xl">
             <div class="flex items-center justify-between">
               <img class="w-[60px]" src="assets/emergency.png" alt="" />
-              <img class="w-[24px]" src="assets/heart2.png" alt="" />
+              <img class="heart w-[24px]" src="assets/heart2.png" alt="" />
             </div>
             <div class="mt-4 mb-6">
               <h3 class="font-bold text-2xl">Anti-Corruption Helpline</h3>
@@ -357,13 +357,13 @@
             </div>
             <div class="w-full flex gap-2">
               <button
-                class="w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="copy w-1/2 border border-gray-500 rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img class="w-3" src="assets/copy.png" alt="" />
                 <span class="text-lg text-gray-400">Copy</span>
               </button>
               <button
-                class="w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
+                class="call w-1/2 bg-[#00A63E] rounded-lg flex items-center justify-center gap-1.5 py-2.5"
               >
                 <img
                   class="w-3 invert brightness-0"
@@ -400,5 +400,6 @@
       </section>
     </main>
     <footer></footer>
+    <script src="main.js"></script>
   </body>
 </html>
