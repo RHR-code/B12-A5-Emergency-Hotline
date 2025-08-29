@@ -21,7 +21,7 @@
 
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
 
-- preventDefault() stops the default behavior of the event.The default behavior of a form is that it's submitted the page will reload but if we use preventDefault() then it stop doing that.
+- preventDefault() stops the default behavior of the event.The default behavior of a form is that when it's submitted the page will reload but if we use preventDefault() then it stop doing that.
 - StopPropagation() is used to stop the event from going upward or downward that means stopping the event bubble or the capturing phase.
 
 ---
