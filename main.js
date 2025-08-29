@@ -23,14 +23,14 @@ for (let card of cards) {
   card.querySelector(".call").addEventListener("click", () => {
     coinCount = coinCount - 20;
     if (coinCount < 0) {
-      return alert("Not Enough Coins,Your need 20 coins to make a call");
+      return alert("❌ Not Enough Coins,Your need 20 coins to make a call");
     }
     coinCounter.innerText = coinCount;
     let cardTitle = card.querySelector("h3").innerText;
     let cardNumber = card.querySelector("h2").innerText;
     let time = new Date().toLocaleTimeString();
 
-    alert(`Calling ${cardTitle} ${cardNumber}`);
+    alert(`📞 Calling ${cardTitle} ${cardNumber}`);
 
     historyStack.push({ title: cardTitle, number: cardNumber, time: time });
     let newDiv = document.createElement("div");
